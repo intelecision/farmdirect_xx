@@ -1,8 +1,9 @@
 {
   "expo": {
-    "name": "farmdirect_xx",
-    "slug": "farmdirect_xx",
-    "version": "1.0.0",
+    "name": "Farm Direct Ghana",
+    "slug": "farm-direct-ghana",
+    "version": "1.2.0",
+      "scheme": "farmdirect",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -14,10 +15,27 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#ffffff",
+          "sounds": ["./assets/sounds/roostercrowing.wav", "./assets/sounds/doorbellpress.wav"],
+          "mode": "production"
+        }
+      
+      ]
+    ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.farmdirect.farmdirectgh",
+       "buildNumber": "5"
     },
     "android": {
+        "versionCode": 11,
+      "package": "com.farmdirect.farmdirectgh",
+      "permissions": [],
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -25,6 +43,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "description": "Farm Direct now brings you Farm produce to your door, Yes fresh farm produce. We hope to bring you great shopping experience.",
+    "extra": {
+      "eas": {
+        "projectId": "456a8090-d484-11e9-b58c-61c20cfbee43"
+      }
     }
   }
 }
