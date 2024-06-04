@@ -30,9 +30,9 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.farmdirect.farmdirectgh",
-       "buildNumber": "8",
+       "buildNumber": "7",
          "infoPlist": {
-      "NSCameraUsageDescription": "This app does not use the camera."
+      "NSCameraUsageDescription": "This app uses the camera to scan barcodes on event tickets."
     }
 
 

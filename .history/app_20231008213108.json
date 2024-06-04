@@ -2,7 +2,7 @@
   "expo": {
     "name": "Farm Direct Ghana",
     "slug": "farm-direct-ghana",
-    "version": "1.2.1",
+    "version": "1.2.0",
       "scheme": "farmdirect",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -24,22 +24,16 @@
           "sounds": ["./assets/sounds/roostercrowing.wav", "./assets/sounds/doorbellpress.wav"],
           "mode": "production"
         }
-
+      
       ]
     ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.farmdirect.farmdirectgh",
-       "buildNumber": "8",
-         "infoPlist": {
-      "NSCameraUsageDescription": "This app does not use the camera."
-    }
-
-
-}
-,
+       "buildNumber": "5"
+    },
     "android": {
-        "versionCode": 12,
+        "versionCode": 11,
       "package": "com.farmdirect.farmdirectgh",
       "permissions": [],
       "adaptiveIcon": {
